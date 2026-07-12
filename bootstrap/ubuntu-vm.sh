@@ -136,7 +136,7 @@ done_message
 
 step 7 "Enabling QEMU Guest Agent..."
 
-systemctl enable --now qemu-guest-agent
+systemctl start qemu-guest-agent || true
 done_message
 
 step 8 "Running checks..."
