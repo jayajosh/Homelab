@@ -1,6 +1,6 @@
 # Homelab
 
-        DHCP Structure
+## DHCP Structure
 -----------------------------------
 100 Revenant      Platform <br>
 101 Poltergeist   Home Assistant <br>
@@ -16,3 +16,11 @@
 
 120 Grimoire      Windows Dev <br>
 121+              Dev/Test <br>
+<br>
+<br>
+## Ubuntu VM bootstrap
+<br>
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/USERNAME/homelab/main/bootstrap/ubuntu-vm.sh -o /tmp/ubuntu-vm.sh \
+  && bash /tmp/ubuntu-vm.sh
