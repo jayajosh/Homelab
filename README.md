@@ -22,5 +22,5 @@
 <br>
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/USERNAME/homelab/main/bootstrap/ubuntu-vm.sh -o /tmp/ubuntu-vm.sh \
+curl -fsSL https://raw.githubusercontent.com/jayajosh/homelab/main/bootstrap/ubuntu-vm.sh -o /tmp/ubuntu-vm.sh \
   && bash /tmp/ubuntu-vm.sh
