@@ -24,3 +24,10 @@
 ```bash
 curl -fsSL https://raw.githubusercontent.com/jayajosh/homelab/main/bootstrap/ubuntu-vm.sh -o /tmp/ubuntu-vm.sh \
   && bash /tmp/ubuntu-vm.sh
+
+## Debian LXC bootstrap
+<br>
+```bash
+wget -qO /tmp/debian-lxc.sh \
+https://raw.githubusercontent.com/jayajosh/homelab/main/bootstrap/debian-lxc.sh \
+&& bash /tmp/debian-lxc.sh
